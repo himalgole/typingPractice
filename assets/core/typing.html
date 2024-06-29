@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice Workshop</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+
+<body>
+    <div class="mini">
+        <h2>Not supported in a mini view!</h2>
+    </div>
+    <div class="display panel">
+        <div id="timer">00 sec</div>
+        <div class="container">
+            <div id="paragraph-container"></div>
+            <a href="setup.html" style="position: absolute; left: 20px;top: 20px;">&LeftArrow; Go Back</a>
+        </div>
+    </div>
+
+    <!-- <script>
+        document.getElementById("paragraph-container").innerHTML = localStorage.getItem("paragraph")
+
+        var minute = 0
+        var second = 0
+        var min_container = document.querySelector(".min")
+        var sec_container = document.querySelector(".second")
+        setInterval(() => {
+            min_container.textContent = minute
+            sec_container.textContent = second
+            second++
+            if ((second % 60) == 0) {
+                second = 0
+                minute++
+            }
+        }, 1000);
+    </script> -->
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
